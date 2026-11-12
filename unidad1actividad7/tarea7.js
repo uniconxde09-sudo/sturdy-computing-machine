@@ -55,3 +55,10 @@ const NOMBRE_ALEJANDRO = "Alejandro Garcia";
 
 
         }
+
+        function damehora(){
+
+        c= new Date()
+        const horaactual=c.toLocaleTimeString();
+        console.log("la hora exacta ahora mismo es "+c)
+        }
